@@ -1,0 +1,15 @@
+.header {
+  background-color: rgb(255, 58, 58);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    margin-left: 20px;
+  }
+  h4 {
+    margin-right: 20px;
+  }
+}

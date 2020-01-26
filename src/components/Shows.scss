@@ -1,0 +1,12 @@
+.shows {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 40px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .shows {
+    justify-content: space-around;
+  }
+}

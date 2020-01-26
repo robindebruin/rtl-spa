@@ -1,0 +1,22 @@
+.episode {
+  display: flex;
+  padding: 40px;
+  &:nth-of-type(odd) {
+    background: rgba(0, 0, 0, 0.15);
+  }
+
+  img {
+    margin: 30px 40px 0 0;
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  .episode {
+    flex-direction: column;
+    padding: 10px;
+    img {
+      margin: 0;
+      width: 100%;
+    }
+  }
+}
