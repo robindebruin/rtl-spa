@@ -1,3 +1,5 @@
+@import './../library';
+
 .episode {
   display: flex;
   padding: 40px;
@@ -10,7 +12,7 @@
   }
 }
 
-@media only screen and (max-device-width: 600px) {
+@media (max-width: $breakpoint-tablet) {
   .episode {
     flex-direction: column;
     padding: 10px;
